@@ -52,12 +52,13 @@ template {
 a {
   background-color: transparent;
 }
-a:link,
-a:visited,
+a,
+a:hover,
+a:focus,
 a:active,
-a:hover {
-  outline: 0;
-  color: blue;
+a.active {
+    outline: 0;
+    color: #bc4a18;
 }
 abbr[title] {
   border-bottom: 1px dotted;
