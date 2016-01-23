@@ -52,6 +52,8 @@ template {
 a {
   background-color: transparent;
 }
+a:link,
+a:visited,
 a:active,
 a:hover {
   outline: 0;
