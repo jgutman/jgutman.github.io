@@ -17,10 +17,11 @@ p.small {
 }
 
 a,
+a:visited
+a:link,
 a:hover,
 a:focus,
-a:active,
-a:visited {
+a:active {
     outline: 0;
     color: #bc4a18;
 }
