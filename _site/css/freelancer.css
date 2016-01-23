@@ -16,7 +16,8 @@ p.small {
     font-size: 16px;
 }
 
-a {
+a,
+a:active {
     text-decoration: none;
     color: #bc4a18;
 }
