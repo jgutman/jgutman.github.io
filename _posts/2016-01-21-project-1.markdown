@@ -3,10 +3,9 @@ layout: default
 modal-id: 1
 date: 2016-01-21
 img: collab-assess.001.png
-alt: image-alt
-project-date: April 2014
-client: New York University
+alt: Measuring collaborative problem solving and individual mathematics competencies in collaborative assessments
+project-date: October 2015 - present
 institution: New York University
-category: Educational Psychology
+category: Educational measurement / technology
 description: Use this area of the page to describe your project.
 ---

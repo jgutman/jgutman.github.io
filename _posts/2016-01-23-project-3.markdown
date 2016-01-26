@@ -3,10 +3,9 @@ layout: default
 modal-id: 3
 date: 2016-01-23
 img: thesis.002.png
-alt: image-alt
-project-date: April 2014
-client: New York University
-institution: New York University
-category: Cognitive Science
+alt: Simulating morphosyntactic change through an online iterated learning paradigm
+project-date: September 2010 - July 2011
+institution: University of Rochester
+category: Cognitive science / psycholinguistics
 description: Use this area of the page to describe your project.
 ---
