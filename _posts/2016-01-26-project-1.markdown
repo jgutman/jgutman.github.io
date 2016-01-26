@@ -1,0 +1,11 @@
+---
+layout: default
+modal-id: 1
+date: 2016-01-26
+img: collab-assess.001.png
+alt: image-alt
+project-date: April 2014
+client: New York University
+category: Educational Psychology
+description: Use this area of the page to describe your project.
+---

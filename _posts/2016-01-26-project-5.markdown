@@ -1,0 +1,12 @@
+---
+layout: default
+modal-id: 5
+date: 2016-01-26
+img: game.png
+alt: image-alt
+project-date: April 2014
+client: New York University
+category: Machine Learning
+description: Use this area of the page to describe your project.
+
+---
