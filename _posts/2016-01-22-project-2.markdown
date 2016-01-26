@@ -1,11 +1,13 @@
 ---
 layout: default
-modal-id: 3
-date: 2016-01-26
-img: thesis.002.png
+modal-id: 2
+date: 2016-01-22
+img: metacognitive.001.png
 alt: image-alt
 project-date: April 2014
+client: New York University
 institution: New York University
-category: Cognitive Science
+category: Educational Psychology
 description: Use this area of the page to describe your project.
+
 ---

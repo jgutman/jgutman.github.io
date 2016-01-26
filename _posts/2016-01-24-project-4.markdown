@@ -1,12 +1,13 @@
 ---
 layout: default
-modal-id: 2
-date: 2016-01-26
-img: metacognitive.001.png
+modal-id: 4
+date: 2016-01-24
+img: submarine.png
 alt: image-alt
 project-date: April 2014
+client: New York University
 institution: New York University
-category: Educational Psychology
+category: Machine Learning
 description: Use this area of the page to describe your project.
 
 ---
