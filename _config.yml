@@ -33,7 +33,9 @@ color:
 footer:
   copyright: Jacqueline Gutman
   location: New York, NY
-  social: Around the Web
+  address: Center for Data Science
+  address: New York University
+  social: Profiles
   credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
