@@ -31,7 +31,7 @@
                             </ul>
                             <p>{{ post.description }}</p>
 
-                            <p> "#portfolioModal-{{ page.next.url }}" </p>
+                            <p> "#portfolioModal-{{ post.next.modal-id }}" </p>
                             <button type="button" class="btn btn-default" data-toggle="modal" data-target="#portfolioModal-{{ page.previous.modal-id }}">Previous</button>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                             <button type="button" class="btn btn-default" data-toggle="modal" data-target="#portfolioModal-{{ page.next.modal-id }}">Next</button>
