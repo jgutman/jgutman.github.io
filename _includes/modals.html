@@ -31,6 +31,19 @@
                             </ul>
                             <p>{{ post.description }}</p>
 
+                            {% if post.code %}
+
+                            {% endif %}
+
+                            {% if post.paper %}
+
+                            {% endif %}
+
+                            {% if post.slides %}
+
+                            {% endif %}
+
+
                             <!-- I have no idea why this part doesn't work
                             {% if post.previous %}
                                 <button type="button" class="btn btn-default" data-toggle="modal" data-target="#portfolioModal-{{ post.previous.modal-id }}">Previous</button>
@@ -38,8 +51,8 @@
                             -->
 
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                            {% if post.previous %}
-                                <button type="button" class="btn btn-default" data-toggle="modal" data-target="#portfolioModal-{{ post.previous.modal-id }}">Previous</button>
+                            {% if post.next %}
+                                <button type="button" class="btn btn-default" data-toggle="modal" data-target="#portfolioModal-{{ post.next.modal-id }}">Next</button>
                             {% endif %}
                         </div>
                     </div>
