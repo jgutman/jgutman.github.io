@@ -2,7 +2,7 @@
 layout: default
 modal-id: 3
 date: 2016-01-23
-title: Morphosyntactic change and an online iterated learning paradigm
+title: Morphosyntactic change in an online iterated learning paradigm
 img: thesis.002.png
 alt: Simulating morphosyntactic change through an online iterated learning paradigm
 project-date: September 2010 - July 2011
