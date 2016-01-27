@@ -4,7 +4,7 @@ modal-id: 4
 date: 2016-01-24
 img: hospitals.001.png
 alt: Early warning system for acquired infection rates in hospitals receiving Medicare funding
-project-date: April 2014
+project-date: October - December 2014
 institution: New York University
 category: Machine Learning
 description: Use this area of the page to describe your project.
