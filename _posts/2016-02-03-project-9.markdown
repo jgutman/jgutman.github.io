@@ -4,7 +4,7 @@ modal-id: 9
 date: 2016-02-03
 img: reddit.001.png
 alt: Training a bidirectional word alignment model on Canadian parliament transcripts
-project-date: October - December 2015
+project-date: October - November 2015
 institution: New York University
 category: Machine learning and natural language processing
 description: Use this area of the page to describe your project.
