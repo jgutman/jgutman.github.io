@@ -30,6 +30,16 @@
                                 </li>
                             </ul>
                             <p>{{ post.description }}</p>
+
+                            <div class="PageNavigation">
+                              {% if page.previous.url %}
+                                  <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+                              {% endif %}
+                              {% if page.next.url %}
+                                  <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+                              {% endif %}
+                            </div>
+
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
