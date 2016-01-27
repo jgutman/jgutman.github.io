@@ -43,10 +43,6 @@
                                 <a href="{{ post.slides }}"> Slides </a>
                             {% endif %}
 
-                            {% if post.previous %}
-                                <a href="#portfolioModal-{{ post.previous.modal-id }}" class="portfolio-link" data-toggle="modal">Previous</a>
-                            {% endif %}
-
                             <!-- I have no idea why this part doesn't work
                             {% if post.previous %}
                                 <button type="button" class="btn btn-default" data-toggle="modal" data-target="#portfolioModal-{{ post.previous.modal-id }}">Previous</button>
