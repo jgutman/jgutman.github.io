@@ -5,9 +5,21 @@
     <description>Jacqueline Gutman, Center for Data Science. Personal site. Educational data mining.</description>
     <link>https://jgutman.github.io/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 26 Jan 2016 20:03:48 -0500</pubDate>
-    <lastBuildDate>Tue, 26 Jan 2016 20:03:48 -0500</lastBuildDate>
+    <pubDate>Tue, 26 Jan 2016 20:12:36 -0500</pubDate>
+    <lastBuildDate>Tue, 26 Jan 2016 20:12:36 -0500</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Project 9</title>
+        <description>Use this area of the page to describe your project.</description>
+        <pubDate>Wed, 03 Feb 2016 00:00:00 -0500</pubDate>
+        <link>https://jgutman.github.io/machine%20learning%20and%20natural%20language%20processing/2016/02/03/project-9/</link>
+        <guid isPermaLink="true">https://jgutman.github.io/machine%20learning%20and%20natural%20language%20processing/2016/02/03/project-9/</guid>
+        
+        
+        <category>machine learning and natural language processing</category>
+        
+      </item>
     
       <item>
         <title>Project 8 copy</title>
@@ -37,11 +49,11 @@
         <title>Project 6</title>
         <description>Use this area of the page to describe your project.</description>
         <pubDate>Tue, 26 Jan 2016 00:00:00 -0500</pubDate>
-        <link>https://jgutman.github.io/machine%20learning%20and%20social%20media/2016/01/26/project-6/</link>
-        <guid isPermaLink="true">https://jgutman.github.io/machine%20learning%20and%20social%20media/2016/01/26/project-6/</guid>
+        <link>https://jgutman.github.io/machine%20learning%20and%20natural%20language%20processing/2016/01/26/project-6/</link>
+        <guid isPermaLink="true">https://jgutman.github.io/machine%20learning%20and%20natural%20language%20processing/2016/01/26/project-6/</guid>
         
         
-        <category>machine learning and social media</category>
+        <category>machine learning and natural language processing</category>
         
       </item>
     
