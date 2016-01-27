@@ -45,23 +45,23 @@
 
                             <!-- I have no idea why this part doesn't work
                             {% if post.previous %}
-                                <button type="button" class="btn btn-default" data-toggle="modal" data-target="#portfolioModal-{{ post.previous.modal-id }}">Previous</button>
+                               <button type="button" class="btn btn-default"
+                                  data-toggle="modal"
+                                  data-target="#portfolioModal-{{ post.previous.modal-id }}"
+                                  data-dismiss="modal">Previous</button>
                             {% endif %}
                             -->
 
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
 
-                            <!-- This part works but the toggling is pretty weird
-                            {% if post.next %}
-                                <button type="button" class="btn btn-default" data-toggle="modal" data-target="#portfolioModal-{{ post.next.modal-id }}">Next</button>
-                            {% endif %}
-                            -->
+                            <!-- This part works but the scrolling is pretty weird
                             {% if post.next %}
                                 <button type="button" class="btn btn-default"
                                       data-toggle="modal"
                                       data-target="#portfolioModal-{{ post.next.modal-id }}"
                                       data-dismiss="modal">Next</button>
                             {% endif %}
+                            -->
 
                         </div>
                     </div>
