@@ -31,6 +31,8 @@
                             </ul>
                             <p>{{ post.description }}</p>
 
+                            <p> "#portfolioModal-{{ post.previous.modal-id }}" </p>
+                            <p> "#portfolioModal-{{ post.next.modal-id }}" </p>
                             <button type="button" class="btn btn-default" data-toggle="modal" data-target="#portfolioModal-{{ post.previous.modal-id }}">Previous</button>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                             <button type="button" class="btn btn-default" data-toggle="modal" data-target="#portfolioModal-{{ post.next.modal-id }}">Next</button>
