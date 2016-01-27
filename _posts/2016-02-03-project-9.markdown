@@ -2,7 +2,7 @@
 layout: default
 modal-id: 9
 date: 2016-02-03
-title: Training a bidirectional word alignment model on Canadian parliament transcripts
+title: French-English word alignment models
 img: alignment.001.png
 alt: Training a bidirectional word alignment model on Canadian parliament transcripts
 project-date: October - November 2015

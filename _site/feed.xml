@@ -5,12 +5,12 @@
     <description>Jacqueline Gutman, Center for Data Science. Personal site. Educational data mining.</description>
     <link>https://jgutman.github.io/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 26 Jan 2016 21:23:43 -0500</pubDate>
-    <lastBuildDate>Tue, 26 Jan 2016 21:23:43 -0500</lastBuildDate>
+    <pubDate>Tue, 26 Jan 2016 21:26:30 -0500</pubDate>
+    <lastBuildDate>Tue, 26 Jan 2016 21:26:30 -0500</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
-        <title>Training a bidirectional word alignment model on Canadian parliament transcripts</title>
+        <title>French-English word alignment models</title>
         <description>Use this area of the page to describe your project.</description>
         <pubDate>Wed, 03 Feb 2016 00:00:00 -0500</pubDate>
         <link>https://jgutman.github.io/machine%20learning%20and%20natural%20language%20processing/2016/02/03/project-9/</link>
@@ -22,7 +22,7 @@
       </item>
     
       <item>
-        <title>Predicting the relative helpfulness of specific hint types in an online reading tutor</title>
+        <title>Predicting the relative helpfulness of reading hint types</title>
         <description>Use this area of the page to describe your project.</description>
         <pubDate>Tue, 02 Feb 2016 00:00:00 -0500</pubDate>
         <link>https://jgutman.github.io/educational%20measurement%20and%20technology/2016/02/02/project-8%20copy/</link>
@@ -46,7 +46,7 @@
       </item>
     
       <item>
-        <title>Supervised text classification and relevance detection in Reddit posts</title>
+        <title>Supervised text classification in Reddit posts</title>
         <description>Use this area of the page to describe your project.</description>
         <pubDate>Tue, 26 Jan 2016 00:00:00 -0500</pubDate>
         <link>https://jgutman.github.io/machine%20learning%20and%20natural%20language%20processing/2016/01/26/project-6/</link>
@@ -58,7 +58,7 @@
       </item>
     
       <item>
-        <title>Judge bias and anomaly detection in immigration court asylum decisions</title>
+        <title>Anomaly detection in immigration court asylum decisions</title>
         <description>Use this area of the page to describe your project.</description>
         <pubDate>Mon, 25 Jan 2016 00:00:00 -0500</pubDate>
         <link>https://jgutman.github.io/machine%20learning%20for%20social%20good/2016/01/25/project-5/</link>
@@ -70,7 +70,7 @@
       </item>
     
       <item>
-        <title>Early warning system for acquired infection rates in hospitals receiving Medicare funding</title>
+        <title>Early warning system for hospital acquired infection rates</title>
         <description>Use this area of the page to describe your project.</description>
         <pubDate>Sun, 24 Jan 2016 00:00:00 -0500</pubDate>
         <link>https://jgutman.github.io/machine%20learning%20for%20social%20good/2016/01/24/project-4/</link>
@@ -82,7 +82,7 @@
       </item>
     
       <item>
-        <title>Simulating morphosyntactic change through an online iterated learning paradigm</title>
+        <title>Morphosyntactic change and an online iterated learning paradigm</title>
         <description>Use this area of the page to describe your project.</description>
         <pubDate>Sat, 23 Jan 2016 00:00:00 -0500</pubDate>
         <link>https://jgutman.github.io/cognitive%20science%20and%20psycholinguistics/2016/01/23/project-3/</link>
@@ -94,7 +94,7 @@
       </item>
     
       <item>
-        <title>Modeling metacognitive skill learning during interactions with a help-seeking tutor agent</title>
+        <title>Metacognitive skill learning and help-seeking interventions</title>
         <description>Use this area of the page to describe your project.</description>
         <pubDate>Fri, 22 Jan 2016 00:00:00 -0500</pubDate>
         <link>https://jgutman.github.io/educational%20measurement%20and%20technology/2016/01/22/project-2/</link>
@@ -106,7 +106,7 @@
       </item>
     
       <item>
-        <title>Measuring collaborative problem solving and individual mathematics competencies in collaborative assessments</title>
+        <title>Collaborative problem solving and assessment</title>
         <description>Use this area of the page to describe your project.</description>
         <pubDate>Thu, 21 Jan 2016 00:00:00 -0500</pubDate>
         <link>https://jgutman.github.io/educational%20measurement%20and%20technology/2016/01/21/project-1/</link>

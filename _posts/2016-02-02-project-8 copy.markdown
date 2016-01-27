@@ -2,7 +2,7 @@
 layout: default
 modal-id: 8
 date: 2016-02-02
-title: Predicting the relative helpfulness of specific hint types in an online reading tutor
+title: Predicting the relative helpfulness of reading hint types
 img: project-listen.001.png
 alt: Predicting the relative helpfulness of specific hint types in an online reading tutor
 project-date: April - May 2015
