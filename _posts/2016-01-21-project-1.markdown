@@ -2,6 +2,7 @@
 layout: default
 modal-id: 1
 date: 2016-01-21
+title: Measuring collaborative problem solving and individual mathematics competencies in collaborative assessments
 img: collab-assess.001.png
 alt: Measuring collaborative problem solving and individual mathematics competencies in collaborative assessments
 project-date: October 2015 - present

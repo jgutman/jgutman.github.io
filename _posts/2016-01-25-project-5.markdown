@@ -2,6 +2,7 @@
 layout: default
 modal-id: 5
 date: 2016-01-25
+title: Judge bias and anomaly detection in immigration court asylum decisions
 img: refugee.001.png
 alt: Judge bias and anomaly detection in immigration court asylum decisions
 project-date: February - May 2015

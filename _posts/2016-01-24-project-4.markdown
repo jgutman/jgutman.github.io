@@ -2,6 +2,7 @@
 layout: default
 modal-id: 4
 date: 2016-01-24
+title: Early warning system for acquired infection rates in hospitals receiving Medicare funding
 img: hospitals.001.png
 alt: Early warning system for acquired infection rates in hospitals receiving Medicare funding
 project-date: October - December 2014

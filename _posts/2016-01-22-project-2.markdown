@@ -2,6 +2,7 @@
 layout: default
 modal-id: 2
 date: 2016-01-22
+title: Modeling metacognitive skill learning during interactions with a help-seeking tutor agent
 img: metacognitive.001.png
 alt: Modeling metacognitive skill learning during interactions with a help-seeking tutor agent
 project-date: July - August 2015
