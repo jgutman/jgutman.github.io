@@ -31,6 +31,9 @@
                             </ul>
                             <p>{{ post.description }}</p>
 
+                            {% if post.previous %}
+                              <button type="button" class="btn btn-default" data-toggle="modal" data-target="#portfolioModal-{{ post.previous }}">Previous</button>
+                            {% endif %}
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                             {% if post.next %}
                               <button type="button" class="btn btn-default" data-toggle="modal" data-target="#portfolioModal-{{ post.next.modal-id }}">Next</button>
