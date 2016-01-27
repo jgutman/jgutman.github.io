@@ -9,5 +9,4 @@ project-date: October 2009 - August 2010
 institution: University of Rochester
 category: Cognitive science and psycholinguistics
 description: Use this area of the page to describe your project.
-prev: 6
 ---

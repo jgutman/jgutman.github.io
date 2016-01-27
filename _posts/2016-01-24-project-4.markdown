@@ -9,5 +9,4 @@ project-date: October - December 2014
 institution: New York University
 category: Machine learning for social good
 description: Use this area of the page to describe your project.
-prev: 3
 ---
