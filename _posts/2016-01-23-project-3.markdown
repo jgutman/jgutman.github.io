@@ -6,6 +6,6 @@ img: thesis.002.png
 alt: Simulating morphosyntactic change through an online iterated learning paradigm
 project-date: September 2010 - July 2011
 institution: University of Rochester
-category: Cognitive science / psycholinguistics
+category: Cognitive science and psycholinguistics
 description: Use this area of the page to describe your project.
 ---

@@ -6,6 +6,6 @@ img: collab-assess.001.png
 alt: Measuring collaborative problem solving and individual mathematics competencies in collaborative assessments
 project-date: October 2015 - present
 institution: New York University
-category: Educational measurement / technology
+category: Educational measurement and technology
 description: Use this area of the page to describe your project.
 ---

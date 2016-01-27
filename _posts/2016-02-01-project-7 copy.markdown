@@ -6,7 +6,7 @@ img: reddit.001.png
 alt: Supervised text classification and relevance detection in Reddit posts
 project-date: October - December 2015
 institution: New York University
-category: Machine Learning
+category: Cognitive science and psycholinguistics
 description: Use this area of the page to describe your project.
 
 ---

@@ -6,7 +6,7 @@ img: hospitals.001.png
 alt: Early warning system for acquired infection rates in hospitals receiving Medicare funding
 project-date: October - December 2014
 institution: New York University
-category: Machine Learning
+category: Machine learning for social good
 description: Use this area of the page to describe your project.
 
 ---

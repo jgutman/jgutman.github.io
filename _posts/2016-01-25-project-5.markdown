@@ -6,7 +6,7 @@ img: refugee.001.png
 alt: Judge bias and anomaly detection in immigration court asylum decisions
 project-date: February - May 2015
 institution: New York University
-category: Machine Learning
+category: Machine learning for social good
 description: Use this area of the page to describe your project.
 
 ---
