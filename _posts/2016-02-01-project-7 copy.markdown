@@ -1,0 +1,12 @@
+---
+layout: default
+modal-id: 7
+date: 2016-02-01
+img: reddit.001.png
+alt: Supervised text classification and relevance detection in Reddit posts
+project-date: October - December 2015
+institution: New York University
+category: Machine Learning
+description: Use this area of the page to describe your project.
+
+---
