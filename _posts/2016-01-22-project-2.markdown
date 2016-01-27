@@ -2,7 +2,7 @@
 layout: default
 modal-id: 2
 date: 2016-01-22
-title: Metacognitive learning and help-seeking interventions
+title: Metacognitive learning under adaptive help-seeking interventions
 img: metacognitive.001.png
 alt: Modeling metacognitive skill learning during interactions with a help-seeking tutor agent
 project-date: July - August 2015
