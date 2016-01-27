@@ -5,81 +5,81 @@
     <description>Jacqueline Gutman, Center for Data Science. Personal site. Educational data mining.</description>
     <link>https://jgutman.github.io/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 26 Jan 2016 14:57:21 -0500</pubDate>
-    <lastBuildDate>Tue, 26 Jan 2016 14:57:21 -0500</lastBuildDate>
+    <pubDate>Tue, 26 Jan 2016 19:17:37 -0500</pubDate>
+    <lastBuildDate>Tue, 26 Jan 2016 19:17:37 -0500</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
-
-      <item>
-        <title>Project 1</title>
-        <description>Use this area of the page to describe your project. </description>
-        <pubDate>Fri, 18 Jul 2014 00:00:00 -0400</pubDate>
-        <link>https://jgutman.github.io/data%20science/project-1/</link>
-        <guid isPermaLink="true">https://jgutman.github.io/data%20science/project-1/</guid>
-
-
-        <category>data science</category>
-
-      </item>
-
-      <item>
-        <title>Project 2</title>
-        <description>Use this area of the page to describe your project. </description>
-        <pubDate>Thu, 17 Jul 2014 00:00:00 -0400</pubDate>
-        <link>https://jgutman.github.io/data%20science/project-2/</link>
-        <guid isPermaLink="true">https://jgutman.github.io/data%20science/project-2/</guid>
-
-
-        <category>data science</category>
-
-      </item>
-
-      <item>
-        <title>Project 3</title>
-        <description>Use this area of the page to describe your project. </description>
-        <pubDate>Wed, 16 Jul 2014 00:00:00 -0400</pubDate>
-        <link>https://jgutman.github.io/data%20science/project-3/</link>
-        <guid isPermaLink="true">https://jgutman.github.io/data%20science/project-3/</guid>
-
-
-        <category>data science</category>
-
-      </item>
-
-      <item>
-        <title>Project 4</title>
-        <description>Use this area of the page to describe your project. </description>
-        <pubDate>Tue, 15 Jul 2014 00:00:00 -0400</pubDate>
-        <link>https://jgutman.github.io/data%20science/project-4/</link>
-        <guid isPermaLink="true">https://jgutman.github.io/data%20science/project-4/</guid>
-
-
-        <category>data science</category>
-
-      </item>
-
-      <item>
-        <title>Project 5</title>
-        <description>Use this area of the page to describe your project. </description>
-        <pubDate>Tue, 15 Jul 2014 00:00:00 -0400</pubDate>
-        <link>https://jgutman.github.io/data%20science/project-5/</link>
-        <guid isPermaLink="true">https://jgutman.github.io/data%20science/project-5/</guid>
-
-
-        <category>data science</category>
-
-      </item>
-
+    
       <item>
         <title>Project 6</title>
-        <description>Use this area of the page to describe your project. </description>
-        <pubDate>Mon, 14 Jul 2014 00:00:00 -0400</pubDate>
-        <link>https://jgutman.github.io/data%20science/project-6/</link>
-        <guid isPermaLink="true">https://jgutman.github.io/data%20science/project-6/</guid>
-
-
-        <category>data science</category>
-
+        <description>Use this area of the page to describe your project.</description>
+        <pubDate>Tue, 26 Jan 2016 00:00:00 -0500</pubDate>
+        <link>https://jgutman.github.io/machine%20learning/2016/01/26/project-6/</link>
+        <guid isPermaLink="true">https://jgutman.github.io/machine%20learning/2016/01/26/project-6/</guid>
+        
+        
+        <category>machine learning</category>
+        
       </item>
-
+    
+      <item>
+        <title>Project 5</title>
+        <description>Use this area of the page to describe your project.</description>
+        <pubDate>Mon, 25 Jan 2016 00:00:00 -0500</pubDate>
+        <link>https://jgutman.github.io/machine%20learning/2016/01/25/project-5/</link>
+        <guid isPermaLink="true">https://jgutman.github.io/machine%20learning/2016/01/25/project-5/</guid>
+        
+        
+        <category>machine learning</category>
+        
+      </item>
+    
+      <item>
+        <title>Project 4</title>
+        <description>Use this area of the page to describe your project.</description>
+        <pubDate>Sun, 24 Jan 2016 00:00:00 -0500</pubDate>
+        <link>https://jgutman.github.io/machine%20learning/2016/01/24/project-4/</link>
+        <guid isPermaLink="true">https://jgutman.github.io/machine%20learning/2016/01/24/project-4/</guid>
+        
+        
+        <category>machine learning</category>
+        
+      </item>
+    
+      <item>
+        <title>Project 3</title>
+        <description>Use this area of the page to describe your project.</description>
+        <pubDate>Sat, 23 Jan 2016 00:00:00 -0500</pubDate>
+        <link>https://jgutman.github.io/cognitive%20science%20/%20psycholinguistics/2016/01/23/project-3/</link>
+        <guid isPermaLink="true">https://jgutman.github.io/cognitive%20science%20/%20psycholinguistics/2016/01/23/project-3/</guid>
+        
+        
+        <category>cognitive science / psycholinguistics</category>
+        
+      </item>
+    
+      <item>
+        <title>Project 2</title>
+        <description>Use this area of the page to describe your project.</description>
+        <pubDate>Fri, 22 Jan 2016 00:00:00 -0500</pubDate>
+        <link>https://jgutman.github.io/educational%20measurement%20/%20technology/2016/01/22/project-2/</link>
+        <guid isPermaLink="true">https://jgutman.github.io/educational%20measurement%20/%20technology/2016/01/22/project-2/</guid>
+        
+        
+        <category>educational measurement / technology</category>
+        
+      </item>
+    
+      <item>
+        <title>Project 1</title>
+        <description>Use this area of the page to describe your project.</description>
+        <pubDate>Thu, 21 Jan 2016 00:00:00 -0500</pubDate>
+        <link>https://jgutman.github.io/educational%20measurement%20/%20technology/2016/01/21/project-1/</link>
+        <guid isPermaLink="true">https://jgutman.github.io/educational%20measurement%20/%20technology/2016/01/21/project-1/</guid>
+        
+        
+        <category>educational measurement / technology</category>
+        
+      </item>
+    
   </channel>
 </rss>
