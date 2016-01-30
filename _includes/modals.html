@@ -31,7 +31,7 @@
             <div class="modal-footer">
 
                  {% if post.code %}
-                  <a class="portfolio-link" href="{{ post.code }}" target="_newtab"
+                  <a type="button" class="btn btn-lg" href="{{ post.code }}" target="_newtab"
                     <i class="fa fa-times">Code</i></a>
                  {% endif %}
 
@@ -42,7 +42,7 @@
 
                  {% if post.slides %}
                  <a class="portfolio-link" href="{{ post.slides }}" target="_newtab"
-                   <i class="fa fa-times">Slides</i></a>
+                   <i class="fa fa-times">Code</i></a>
                  {% endif %}
 
                 <button type="button" class="btn btn-lg" data-dismiss="modal"><i class="fa fa-times"></i>Return to Portfolio</button>
