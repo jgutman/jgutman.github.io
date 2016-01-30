@@ -31,16 +31,18 @@
             <div class="modal-footer">
 
                  {% if post.code %}
-                  <a class="portfolio-link" href="{{ post.code }}" target="_blank"
-                    <i class="fa fa-times"></i>Code</a>
+                  <a class="portfolio-link" href="{{ post.code }}" target="_newtab"
+                    <i class="fa fa-times">Code</i></a>
                  {% endif %}
 
                  {% if post.paper %}
-                   <a href="{{ post.paper }}"> Paper </a>
+                 <a class="portfolio-link" href="{{ post.paper }}" target="_newtab"
+                   <i class="fa fa-times">Paper</i></a>
                  {% endif %}
 
                  {% if post.slides %}
-                   <a href="{{ post.slides }}"> Slides </a>
+                 <a class="portfolio-link" href="{{ post.slides }}" target="_newtab"
+                   <i class="fa fa-times">Slides</i></a>
                  {% endif %}
 
                 <button type="button" class="btn btn-lg" data-dismiss="modal"><i class="fa fa-times"></i>Return to Portfolio</button>
