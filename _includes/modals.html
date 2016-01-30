@@ -27,40 +27,24 @@
                 </ul>
                 <p>{{ post.description }}</p>
 
-                {% if post.code %}
-                  <a href="{{ post.code }}" class="portfolio-link"> Code </a>
-                {% endif %}
-
-                {% if post.paper %}
-                  <a href="{{ post.paper }}" class="portfolio-link"> Paper </a>
-                {% endif %}
-
-                {% if post.slides %}
-                  <a href="{{ post.slides }}" class="portfolio-link"> Slides </a>
-                {% endif %}
             </div>
             <div class="modal-footer">
-                <!-- I have no idea why this part doesn't work
-                {% if post.previous %}
-                    <button type="button" class="btn btn-default"
-                      data-toggle="modal"
-                      data-target="#portfolioModal-{{ post.previous.modal-id }}"
-                      data-dismiss="modal"
-                    >Previous</button>
-                {% endif %}
-                 -->
+
+                 {% if post.code %}
+                  <a class="portfolio-link" href="{{ post.code }}" target="_blank"
+                    <i class="fa fa-times"></i>Code</a>
+                 {% endif %}
+
+                 {% if post.paper %}
+                   <a href="{{ post.paper }}"> Paper </a>
+                 {% endif %}
+
+                 {% if post.slides %}
+                   <a href="{{ post.slides }}"> Slides </a>
+                 {% endif %}
 
                 <button type="button" class="btn btn-lg" data-dismiss="modal"><i class="fa fa-times"></i>Return to Portfolio</button>
 
-                <!-- This part works but the scrolling is pretty weird
-                {% if post.next %}
-                    <button type="button" class="btn btn-default"
-                      data-toggle="modal"
-                      href="#portfolioModal-{{ post.next.modal-id }}"
-                      data-dismiss="modal"
-                    >Next</button>
-                {% endif %}
-                 -->
             </div>
           </div>
         </div>
