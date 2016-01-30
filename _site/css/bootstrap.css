@@ -3460,7 +3460,8 @@ fieldset[disabled] .btn-danger.active {
 }
 .btn-link {
   color: #18bc9c;
-  font-weight: normal;
+  font-size: 19px;
+  font-weight: bold;
   border-radius: 0;
 }
 .btn-link,
@@ -3468,7 +3469,7 @@ fieldset[disabled] .btn-danger.active {
 .btn-link.active,
 .btn-link[disabled],
 fieldset[disabled] .btn-link {
-  background-color: transparent;
+  background-color: #e74c3c;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
@@ -3476,13 +3477,13 @@ fieldset[disabled] .btn-link {
 .btn-link:hover,
 .btn-link:focus,
 .btn-link:active {
-  border-color: transparent;
+  border-color: #e74c3c;
 }
 .btn-link:hover,
 .btn-link:focus {
   color: #18bc9c;
   text-decoration: underline;
-  background-color: transparent;
+  background-color: #e74c3c;
 }
 .btn-link[disabled]:hover,
 fieldset[disabled] .btn-link:hover,
