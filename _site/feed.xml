@@ -5,8 +5,8 @@
     <description>Jacqueline Gutman, Center for Data Science. Personal site. Educational data mining.</description>
     <link>https://jgutman.github.io/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 30 Jan 2016 11:52:07 -0500</pubDate>
-    <lastBuildDate>Sat, 30 Jan 2016 11:52:07 -0500</lastBuildDate>
+    <pubDate>Sat, 30 Jan 2016 15:28:19 -0500</pubDate>
+    <lastBuildDate>Sat, 30 Jan 2016 15:28:19 -0500</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -107,7 +107,7 @@
     
       <item>
         <title>Collaborative problem solving and assessment</title>
-        <description>Use this area of the page to describe your project.</description>
+        <description>This is an ongoing project in collaboration with faculty at the NYU Steinhardt Graduate School of Education&#39;s Center for the Promotion of Research Involving Innovative Statistical Methodology and the Computational Psychometrics Research Center of the Educational Testing Service. Our research addresses two fundamental questions in the nascent field of computer-supported collaborative learning and assessment. First, can we determine the properties of assessment items that foster productive collaborations in an online/face-to-face partnered assessment setting? Second, how can we use these assessment items to separately estimate an individual’s mathematical problem-solving ability from tasks completed in isolation as compared to the individual’s ability estimated from performance on tasks encouraging or requiring collaboration? Here we are adapting established high school and college-level mathematics assessment items from the National Assessment of Educational Progress in order to elicit more collaborative and interdependent problem solving. These adapted items are used in implementing individual and collaborative assessment frameworks within OpenEdX courseware. We are working to develop a taxonomy of item characteristics associated with increased interdependence in domains with well-defined problems, such as mathematics. Code for this project is primarily written in a combination of Python, XML, and Javascript. Materials are not yet available, but for further information on the project, see the links below.</description>
         <pubDate>Thu, 21 Jan 2016 00:00:00 -0500</pubDate>
         <link>https://jgutman.github.io/educational%20measurement%20and%20technology/2016/01/21/project-1/</link>
         <guid isPermaLink="true">https://jgutman.github.io/educational%20measurement%20and%20technology/2016/01/21/project-1/</guid>
