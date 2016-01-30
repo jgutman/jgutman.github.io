@@ -9,4 +9,7 @@ project-date: October - December 2014
 institution: New York University
 category: Machine learning for social good
 description: Use this area of the page to describe your project.
+code: https://github.com/jgutman
+paper: https://github.com/jgutman
+slides: https://github.com/jgutman
 ---

@@ -9,4 +9,7 @@ project-date: September 2010 - July 2011
 institution: University of Rochester
 category: Cognitive science and psycholinguistics
 description: Use this area of the page to describe your project.
+code: https://github.com/jgutman
+paper: https://github.com/jgutman
+slides: https://github.com/jgutman
 ---
