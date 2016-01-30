@@ -1,72 +1,67 @@
  <!-- Portfolio Modals -->
  {% for post in site.posts reversed %}
-    <div class="portfolio-modal modal fade" id="portfolioModal-{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
+    <div class="portfolio-modal modal fade" id="portfolioModal-{{ post.modal-id }}" tabindex="-1" role="dialog" aria-labelledby="portfolio {{ post.modal-id }}" aria-hidden="true">
+      <div class="modal-content">
+          <div class="modal-header">
+            <div class="close-modal" data-dismiss="modal" aria-label="Close">
                 <div class="lr">
                     <div class="rl">
                     </div>
                 </div>
+            </div> </div>
+
+            <div class="modal-body">
+                <h2>{{ post.title }}</h2>
+                <hr class="star-primary">
+                <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                <ul class="list-inline item-details">
+                  <li>Institution:
+                    <strong>{{ post.institution }}</strong>
+                  </li>
+                  <li>Date:
+                    <strong>{{ post.project-date }}</strong>
+                  </li>
+                  <li>Domain:
+                    <strong>{{ post.category }}</strong>
+                  </li>
+                </ul>
+                <p>{{ post.description }}</p>
+
+                {% if post.code %}
+                  <a href="{{ post.code }}" class="portfolio-link"> Code </a>
+                {% endif %}
+
+                {% if post.paper %}
+                  <a href="{{ post.paper }}" class="portfolio-link"> Paper </a>
+                {% endif %}
+
+                {% if post.slides %}
+                  <a href="{{ post.slides }}" class="portfolio-link"> Slides </a>
+                {% endif %}
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>{{ post.title }}</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-                            <ul class="list-inline item-details">
-                                <li>Institution:
-                                    <strong>{{ post.institution }}
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong>{{ post.project-date }}
-                                    </strong>
-                                </li>
-                                <li>Domain:
-                                    <strong>{{ post.category }}
-                                    </strong>
-                                </li>
-                            </ul>
-                            <p>{{ post.description }}</p>
+            <div class="modal-footer">
+                <!-- I have no idea why this part doesn't work
+                {% if post.previous %}
+                    <button type="button" class="btn btn-default"
+                      data-toggle="modal"
+                      data-target="#portfolioModal-{{ post.previous.modal-id }}"
+                      data-dismiss="modal"
+                    >Previous</button>
+                {% endif %}
+                 -->
 
-                            {% if post.code %}
-                                <a href="{{ post.code }}"> Code </a>
-                            {% endif %}
+                <button type="button" class="btn btn-lg" data-dismiss="modal"><i class="fa fa-times"></i>Return to Portfolio</button>
 
-                            {% if post.paper %}
-                                <a href="{{ post.paper }}"> Paper </a>
-                            {% endif %}
-
-                            {% if post.slides %}
-                                <a href="{{ post.slides }}"> Slides </a>
-                            {% endif %}
-
-                            <!-- I have no idea why this part doesn't work
-                            {% if post.previous %}
-                               <button type="button" class="btn btn-default"
-                                  data-toggle="modal"
-                                  data-target="#portfolioModal-{{ post.previous.modal-id }}"
-                                  data-dismiss="modal">Previous</button>
-                            {% endif %}
-                            -->
-
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-
-                            <!-- This part works but the scrolling is pretty weird -->
-                            {% if post.next %}
-                                <button type="button" class="btn btn-default"
-                                      data-toggle="modal"
-                                      data-target="#portfolioModal-{{ post.next.modal-id }}"
-                                      data-dismiss="modal">Next</button>
-                            {% endif %}
-                            <!-- -->
-
-                        </div>
-                    </div>
-                </div>
+                <!-- This part works but the scrolling is pretty weird
+                {% if post.next %}
+                    <button type="button" class="btn btn-default"
+                      data-toggle="modal"
+                      href="#portfolioModal-{{ post.next.modal-id }}"
+                      data-dismiss="modal"
+                    >Next</button>
+                {% endif %}
+                 -->
             </div>
+          </div>
         </div>
-    </div>
 {% endfor %}

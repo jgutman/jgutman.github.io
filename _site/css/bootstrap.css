@@ -5917,12 +5917,12 @@ button.close {
   -webkit-appearance: none;
 }
 .modal-open {
-  overflow: hidden;
+  overflow: scroll;;
 }
 .modal {
   display: none;
-  overflow: hidden;
-  position: fixed;
+  overflow: scroll;
+  position: relative;
   top: 0;
   right: 0;
   bottom: 0;
@@ -5947,8 +5947,7 @@ button.close {
   transform: translate(0, 0);
 }
 .modal-open .modal {
-  overflow-x: hidden;
-  overflow-y: auto;
+  overflow:scroll;
 }
 .modal-dialog {
   position: relative;
