@@ -25,24 +25,24 @@
                     <strong>{{ post.category }}</strong>
                   </li>
                 </ul>
-                <p>{{ post.description }}</p>
+
 
             </div>
             <div class="modal-footer">
-
+              <div class="col-sm-6 col-sm-offset-2">{{ post.description }}</div>
                  {% if post.code %}
                   <a class="btn btn-link" href="{{ post.code }}" target="_newtab"
-                    >Code</a>
+                    ><p>Code</p></a>
                  {% endif %}
 
                  {% if post.paper %}
                  <a class="btn btn-link" href="{{ post.paper }}" target="_newtab"
-                   >Paper</a>
+                   ><p>Paper</p></a>
                  {% endif %}
 
                  {% if post.slides %}
                  <a class="btn btn-link" href="{{ post.slides }}" target="_newtab"
-                   >Slides</a>
+                   ><p>Slides</p></a>
                  {% endif %}
 
                 <button type="button" class="btn btn-lg" data-dismiss="modal"><i class="fa fa-times"></i>Return to Portfolio</button>

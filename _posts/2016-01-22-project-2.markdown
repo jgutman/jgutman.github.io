@@ -8,7 +8,7 @@ alt: Modeling metacognitive skill learning during interactions with a help-seeki
 project-date: July - August 2015
 institution: Pittsburgh Science of Learning Center LearnLab
 category: Educational measurement and technology
-description: Use this area of the page to describe your project.
+description: <p.small>Cognitive tutoring agents can be extended with a help-seeking tutor module that tries to identify hint abuse and hint avoidance and provide corrective feedback. Here we extended previous work done by researchers at Carnegie Mellon University in collaboration with the Pittsburgh Science of Learning Center LearnLab in order to determine whether users interacting with this type of agent demonstrated improved metacognitive skills over time.</p> <p.small>Metacognitive skill here is measured by the appropriateness of their resource and hint use conditional on their estimated knowledge of the mathematical concept being tested. In order to design the most effective interventions capable of delivering personalized adaptive instruction to students, we need to understand whether these metacognitive abilities are dissociable from the cognitive skills targeted by the tutoring system, and whether they are amenable to intervention.</p> <p.small>We were particularly interested in whether these metacognitive learning curves revealed improvement in metacognitive skillfulness in a domain-general or context-specific manner. We found context-specific improvement in metacognitive resourcefulness and self-knowlege that showed limited to non-existent generalization to new problem domains.</p>  
 code: https://github.com/jgutman
 paper: https://github.com/jgutman
 slides: https://github.com/jgutman
