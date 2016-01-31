@@ -1,0 +1,15 @@
+---
+layout: default
+modal-id: 1
+date: 2016-01-01
+title: Anomaly detection in immigration court asylum decisions
+img: refugee.001.png
+alt: Judge bias and anomaly detection in immigration court asylum decisions
+project-date: February - May 2015
+institution: New York University
+category: Machine learning for social good
+description: <p.small>Using data from 40 years of immigration court records in asylum decisions, we built an anomaly detection system to predict the probability of immigration judges granting asylum to families of asylum seekers given the characteristics of the refugee, case, and judge, and recent and immediate asylum decision history. We built predictive models using Adaboost, support vector machines, and other classification models to optimize prediction and recall across all judges. We were particularly interested in measuring streak avoidance behavior in judges’ decision-making and identifying judges whose behavior systematically deviated from expected voting patterns in asylum decisions involving particular refugee ethnicities and countries of origin. </p> <p.small>Fairly extensive missing data necessitated use of multiple imputation in developing the candidate models for the analysis. A hierachical non-parametric model was developed using families nested in judges nested in courts nested in districts. A complete lack of variation at the within-family level motivated the use of families of asylum-seekers as the smallest unit of analysis, rather than individuals. Adaboost and linear support vector machines yielded the lowest mean error across all classes of models when optimizing for the F1-measure on asylum grants.</p> <p.small>In refining these analyses we developed a technique for predicting the expected behavior of an individual judge from the collective decision-making behavior of all other judges, using the multilevel structure to weight the prediction more heavily towards judges closer to the target judge in the hierarchy. We used these weighted predictions to flag judges whose asylum granting decisions did not conform to the "collective wisdom" prediction of the system as a whole. A key finding in our analysis was that decision records which preceded the target case by over a year showed almost no interdependence either within or across judges, as the factors which contribute to reasonable decision-making behavior in asylum cases typically changed too drastically to be informative for time lags beyond one year.</p> <p.small>The analyses and models used in this project were all written in Python using the scikit-learn library for machine learning and statistical modeling. Sensitive and confidential datasets provided by researchers at the National Bureau of Economic Research. Additional features merged from open data obtained from the U.N. High Commissioner for Refugees database.</p>
+code: https://github.com/jgutman
+paper: https://github.com/jgutman
+slides: https://github.com/jgutman
+---
