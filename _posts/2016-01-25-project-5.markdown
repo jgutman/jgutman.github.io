@@ -8,7 +8,7 @@ alt: Judge bias and anomaly detection in immigration court asylum decisions
 project-date: February - May 2015
 institution: New York University
 category: Machine learning for social good
-description: Use this area of the page to describe your project.
+description: <p.small>Using data from 40 years of immigration court records in asylum decisions, we built an anomaly detection system to predict the probability of immigration judges granting asylum to families of asylum seekers given the characteristics of the refugee, case, and judge, and recent and immediate asylum decision history. We built predictive models using Adaboost, support vector machines, and other classification models to optimize prediction and recall across all judges. We were particularly interested in measuring streak avoidance behavior in judges’ decision-making and identifying judges whose behavior systematically deviated from expected voting patterns in asylum decisions involving particular refugee ethnicities and countries of origin. </p>
 code: https://github.com/jgutman
 paper: https://github.com/jgutman
 slides: https://github.com/jgutman

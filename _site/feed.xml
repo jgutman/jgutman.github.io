@@ -5,8 +5,8 @@
     <description>Jacqueline Gutman, Center for Data Science. Personal site. Educational data mining.</description>
     <link>https://jgutman.github.io/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 31 Jan 2016 12:41:53 -0500</pubDate>
-    <lastBuildDate>Sun, 31 Jan 2016 12:41:53 -0500</lastBuildDate>
+    <pubDate>Sun, 31 Jan 2016 12:46:59 -0500</pubDate>
+    <lastBuildDate>Sun, 31 Jan 2016 12:46:59 -0500</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -59,7 +59,7 @@
     
       <item>
         <title>Anomaly detection in immigration court asylum decisions</title>
-        <description>Use this area of the page to describe your project.</description>
+        <description>&lt;p.small&gt;Using data from 40 years of immigration court records in asylum decisions, we built an anomaly detection system to predict the probability of immigration judges granting asylum to families of asylum seekers given the characteristics of the refugee, case, and judge, and recent and immediate asylum decision history. We built predictive models using Adaboost, support vector machines, and other classification models to optimize prediction and recall across all judges. We were particularly interested in measuring streak avoidance behavior in judges’ decision-making and identifying judges whose behavior systematically deviated from expected voting patterns in asylum decisions involving particular refugee ethnicities and countries of origin. &lt;/p&gt;</description>
         <pubDate>Mon, 25 Jan 2016 00:00:00 -0500</pubDate>
         <link>https://jgutman.github.io/machine%20learning%20for%20social%20good/2016/01/25/project-5/</link>
         <guid isPermaLink="true">https://jgutman.github.io/machine%20learning%20for%20social%20good/2016/01/25/project-5/</guid>
@@ -71,7 +71,7 @@
     
       <item>
         <title>Early warning system for hospital acquired infection rates</title>
-        <description>&lt;p.small&gt;Hospitals with high levels of hospital-acquired infections risk losing Medicare funds and experiencing high rates of preventable patient mortality. Using autoregressive tree models and logistic regression, we developed a system for early identification of hospitals exceeding a threshold rate of central-line associated adverse events conditional on hospital characteristics. We incorporated a cost-sensitive risk function to bias the model towards increased sensitivity in identifying hospitals likely to exceed a threshold rate of hospital-acquired infections, controlling for patient characteristics using propensity score matching at the patient level.&lt;/p&gt; &lt;p.small&gt;To correct for prediction error arising from the rarity of the adverse events of interest relative to all opportunities for infection, we used a proxy target modeling approach. We developed a framework for evaluating the kinds of patient events that function as reliable target variables for predicting infection rates, and demonstrated the feasibility of proxy logistic regression in identifying hospitals of concern prior to a spike in adverse patient events.&lt;/p&gt; &lt;p.small&gt;The analyses and models used in this project were all written in Python using the scikit-learn library for machine learning and statistical modeling and matplotlib for plotting and data visualization. De-identified open data were obtained directly from the Medicare website. &lt;/p&gt;</description>
+        <description>&lt;p.small&gt;Hospitals with high levels of hospital-acquired infections risk losing Medicare funds and experiencing high rates of preventable patient mortality. Using autoregressive tree models and logistic regression, we developed a system for early identification of hospitals exceeding a threshold rate of central-line associated adverse events conditional on hospital characteristics. We incorporated a cost-sensitive risk function to bias the model towards increased sensitivity in identifying hospitals likely to exceed a threshold rate of hospital-acquired infections, controlling for patient characteristics using propensity score matching at the patient level.&lt;/p&gt; &lt;p.small&gt;To correct for prediction error arising from the rarity of the adverse events of interest relative to all opportunities for infection, we used a proxy target modeling approach. We developed a framework for evaluating the kinds of patient events that function as reliable target variables for predicting infection rates, and demonstrated the feasibility of proxy logistic regression in identifying hospitals of concern prior to a spike in adverse patient events.&lt;/p&gt; &lt;p.small&gt;The analyses and models used in this project were all written in Python using the scikit-learn library for machine learning and statistical modeling and matplotlib for plotting and data visualization. De-identified open data were obtained directly from the Medicare.gov website. &lt;/p&gt;</description>
         <pubDate>Sun, 24 Jan 2016 00:00:00 -0500</pubDate>
         <link>https://jgutman.github.io/machine%20learning%20for%20social%20good/2016/01/24/project-4/</link>
         <guid isPermaLink="true">https://jgutman.github.io/machine%20learning%20for%20social%20good/2016/01/24/project-4/</guid>
