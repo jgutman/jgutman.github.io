@@ -5,8 +5,8 @@
     <description>Jacqueline Gutman, Center for Data Science. Personal site. Educational data mining.</description>
     <link>https://jgutman.github.io/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 31 Jan 2016 17:09:47 -0500</pubDate>
-    <lastBuildDate>Sun, 31 Jan 2016 17:09:47 -0500</lastBuildDate>
+    <pubDate>Sun, 31 Jan 2016 17:16:13 -0500</pubDate>
+    <lastBuildDate>Sun, 31 Jan 2016 17:16:13 -0500</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -22,14 +22,12 @@
       </item>
     
       <item>
-        <title>French-English word alignment models</title>
-        <description>&lt;p.small&gt;Many state-of-the-art machine translation systems consist of a language model and an alignment model trained on a large corpus of parallel texts with no word-to-word gloss available. In this project I implemented IBM alignment models 1 and 2 from scratch, trained on a parallel French-English corpus of Canadian parliament transcripts.&lt;/p&gt; &lt;p.small&gt;Expectation-maximization was used to train each alignment model, and the intersection of one-to-many alignments in both translation directions were taken to yield the best possible inferred alignment for each sentence. Cross-validation on model hyperparameters and detailed linguistic error analysis were conducted to optimize model performance.&lt;/p&gt; &lt;p.small&gt;Code for the alignment models and expectation-maximization algorithm was written in Java and run on a high-performance computing cluster. Performance of my model yielded the second-best alignment error rate out of all student-submitted models.&lt;/p&gt;</description>
+        <title>Project 8</title>
+        <description></description>
         <pubDate>Fri, 08 Jan 2016 00:00:00 -0500</pubDate>
-        <link>https://jgutman.github.io/machine%20learning%20and%20natural%20language%20processing/2016/01/08/project-8/</link>
-        <guid isPermaLink="true">https://jgutman.github.io/machine%20learning%20and%20natural%20language%20processing/2016/01/08/project-8/</guid>
+        <link>https://jgutman.github.io/2016/01/08/project-8/</link>
+        <guid isPermaLink="true">https://jgutman.github.io/2016/01/08/project-8/</guid>
         
-        
-        <category>machine learning and natural language processing</category>
         
       </item>
     
