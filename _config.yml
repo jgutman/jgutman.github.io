@@ -45,3 +45,6 @@ credits: 'Created with Github-Pages, Jekyll, and the Freelancer Bootstrap theme.
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+safe: true
+lsi: false
