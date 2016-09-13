@@ -3,7 +3,7 @@ layout: default
 modal-id: 12
 date: 2015-12-31
 title: Mining public sentiment in the Twitter response to televised debates
-img: refugee.001.png
+img: twitter.png
 alt: Mining public sentiment in the Twitter response to televised policy debates
 project-date: March - May 2016
 institution: New York University

@@ -41,7 +41,7 @@ social:
     url: https://www.facebook.com/jackie.gutman
 
 # Credits content
-credits: 'Created with Github-Pages, Jekyll, and the Freelancer Bootstrap theme.'
+credits: 'Created with Github-Pages, Jekyll, and the Freelancer Bootstrap theme. Icons from Flaticon.'
 
 # Build settings
 markdown: kramdown

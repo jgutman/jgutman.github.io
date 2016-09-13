@@ -3,7 +3,7 @@ layout: default
 modal-id: 11
 date: 2015-12-30
 title: Analyzing taxi usage patterns in NYC to detect local hot spots and dead zones
-img: refugee.001.png
+img: taxi.png
 alt: Analyzing taxi usage patterns in NYC to detect local hot spots and dead zones
 project-date: March - May 2016
 institution: New York University

@@ -3,7 +3,7 @@ layout: default
 modal-id: 10
 date: 2015-12-29
 title: Identifying and influencing students at risk of not finishing high school
-img: refugee.001.png
+img: graduates.png
 alt: Identifying and influencing students at risk of not finishing high school
 project-date: May 2016 - August 2016
 institution: University of Chicago
