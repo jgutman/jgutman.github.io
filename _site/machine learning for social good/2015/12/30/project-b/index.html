@@ -3,11 +3,11 @@
     <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>About</title>
+    <title>Anomaly detection in immigration court asylum decisions</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="Jacqueline Gutman, Center for Data Science. Personal site. Educational data mining.">
     <meta name="author" content="Gutman Jacqueline">
-    <link rel="canonical" href="https://jgutman.github.io/https:/jgutman.github.io/about/">
+    <link rel="canonical" href="https://jgutman.github.io/machine%20learning%20for%20social%20good/2015/12/30/project-b/">
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
@@ -98,6 +98,39 @@
                 </div>
             </div>
             <div class="row">
+                
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal-10" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/refugee.001.png" class="img-responsive" alt="Identifying and influencing students at risk of not finishing high school">
+                        </a>
+                    </div>
+                
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal-11" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/refugee.001.png" class="img-responsive" alt="Judge bias and anomaly detection in immigration court asylum decisions">
+                        </a>
+                    </div>
+                
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal-12" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/refugee.001.png" class="img-responsive" alt="Judge bias and anomaly detection in immigration court asylum decisions">
+                        </a>
+                    </div>
                 
                     <div class="col-sm-4 portfolio-item">
                         <a href="#portfolioModal-1" class="portfolio-link" data-toggle="modal">
@@ -343,7 +376,7 @@
                       <p.small>I transition pretty fluidly between Python, R, and SQL, and typically use all three in tandem for most projects, as the task requires.</p>
                 </div>
                 <div class="col-lg-4">
-                    <p.small>Substantively, my primary research interests lie at the intersection of educational technology, measurement, and computer supported collaborative learning. Currently I'm interested in: </p> <p.small><b><i>1)</i></b> developing a framework for the assessment of collaborative problem-solving within educational technology platforms,</p> <p.small><b><i>2)</i></b> understanding the relationship between metacognitive and cognitive factors in modeling learning growth curves, and </p> <p.small><b><i>3)</i></b> applying causal inference methods to policy evaluation in education and racial justice interventions.</p>
+                    <p.small>Substantively, my primary research interests lie at the intersection of educational technology, measurement, and computer supported collaborative learning. Currently I'm interested in: </p> <p.small><b><i>1)</i></b> developing a framework for the assessment of collaborative problem-solving within educational technology platforms,</p> <p.small><b><i>2)</i></b> understanding the relationship between metacognitive and cognitive factors in modeling learning growth curves, and </p> <p.small><b><i>3)</i></b> applying causal inference methods to policy evaluation in interventions addressing educational access, refugee services, and racial justice. </p>
                 </div>
             </div>
         </div>
@@ -465,6 +498,159 @@
 
      <!-- Portfolio Modals -->
  
+    <div class="portfolio-modal modal fade" id="portfolioModal-10" tabindex="-1" role="dialog" aria-labelledby="portfolio 10" aria-hidden="true">
+      <div class="modal-content">
+          <div class="modal-header">
+            <div class="close-modal" data-dismiss="modal" aria-label="Close">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div> </div>
+
+            <div class="modal-body">
+                <h2>Identifying and influencing students at risk of not finishing high school</h2>
+                <hr class="star-primary">
+                <img src="img/portfolio/refugee.001.png" class="img-responsive img-centered" alt="Identifying and influencing students at risk of not finishing high school">
+                <ul class="list-inline item-details">
+                  <li>Institution:
+                    <strong>University of Chicago</strong>
+                  </li>
+                  <li>Date:
+                    <strong>May 2016 - August 2016</strong>
+                  </li>
+                  <li>Domain:
+                    <strong>Machine learning for social good</strong>
+                  </li>
+                </ul>
+
+
+            </div>
+            <div class="modal-footer">
+              <div class="col-sm-6 col-sm-offset-2"><p.small>Using data from 40 years of immigration court records in asylum decisions, we built an anomaly detection system to predict the probability of immigration judges granting asylum to families of asylum seekers given the characteristics of the refugee, case, and judge, and recent and immediate asylum decision history. We built predictive models using Adaboost, support vector machines, and other classification models to optimize prediction and recall across all judges. We were particularly interested in measuring streak avoidance behavior in judges’ decision-making and identifying judges whose behavior systematically deviated from expected voting patterns in asylum decisions involving particular refugee ethnicities and countries of origin. </p> <p.small>Fairly extensive missing data necessitated use of multiple imputation in developing the candidate models for the analysis. A hierachical non-parametric model was developed using families nested in judges nested in courts nested in districts. A complete lack of variation at the within-family level motivated the use of families of asylum-seekers as the smallest unit of analysis, rather than individuals. Adaboost and linear support vector machines yielded the lowest mean error across all classes of models when optimizing for the F1-measure on asylum grants.</p> <p.small>In refining these analyses we developed a technique for predicting the expected behavior of an individual judge from the collective decision-making behavior of all other judges, using the multilevel structure to weight the prediction more heavily towards judges closer to the target judge in the hierarchy. We used these weighted predictions to flag judges whose asylum granting decisions did not conform to the "collective wisdom" prediction of the system as a whole. A key finding in our analysis was that decision records which preceded the target case by over a year showed almost no interdependence either within or across judges, as the factors which contribute to reasonable decision-making behavior in asylum cases typically changed too drastically within a year to be informative for time lags greater than one year.</p> <p.small>The analyses and models used in this project were all written in Python using the scikit-learn library for machine learning and statistical modeling. Sensitive and confidential datasets provided by researchers at the National Bureau of Economic Research. Additional features merged from open data obtained from the U.N. High Commissioner for Refugees and World Bank databases.</p></div>
+                 
+                  <a class="btn btn-link" href="https://github.com/jgutman/Refugee.git" target="_newtab"
+                    ><p>Code</p></a>
+                 
+
+                 
+                 <a class="btn btn-link" href="https://jgutman.github.io/assets/ProjectReport_RefugeeAsylum_DK_JG.pdf" target="_newtab"
+                   ><p>Paper</p></a>
+                 
+
+                 
+                 <a class="btn btn-link" href="https://jgutman.github.io/assets/Refugee_Asylum_Slides.pdf" target="_newtab"
+                   ><p>Slides</p></a>
+                 
+
+                <button type="button" class="btn btn-lg" data-dismiss="modal"><i class="fa fa-times"></i>Return to Portfolio</button>
+
+            </div>
+          </div>
+        </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal-11" tabindex="-1" role="dialog" aria-labelledby="portfolio 11" aria-hidden="true">
+      <div class="modal-content">
+          <div class="modal-header">
+            <div class="close-modal" data-dismiss="modal" aria-label="Close">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div> </div>
+
+            <div class="modal-body">
+                <h2>Anomaly detection in immigration court asylum decisions</h2>
+                <hr class="star-primary">
+                <img src="img/portfolio/refugee.001.png" class="img-responsive img-centered" alt="Judge bias and anomaly detection in immigration court asylum decisions">
+                <ul class="list-inline item-details">
+                  <li>Institution:
+                    <strong>New York University</strong>
+                  </li>
+                  <li>Date:
+                    <strong>February - May 2015</strong>
+                  </li>
+                  <li>Domain:
+                    <strong>Machine learning for social good</strong>
+                  </li>
+                </ul>
+
+
+            </div>
+            <div class="modal-footer">
+              <div class="col-sm-6 col-sm-offset-2"><p.small>Using data from 40 years of immigration court records in asylum decisions, we built an anomaly detection system to predict the probability of immigration judges granting asylum to families of asylum seekers given the characteristics of the refugee, case, and judge, and recent and immediate asylum decision history. We built predictive models using Adaboost, support vector machines, and other classification models to optimize prediction and recall across all judges. We were particularly interested in measuring streak avoidance behavior in judges’ decision-making and identifying judges whose behavior systematically deviated from expected voting patterns in asylum decisions involving particular refugee ethnicities and countries of origin. </p> <p.small>Fairly extensive missing data necessitated use of multiple imputation in developing the candidate models for the analysis. A hierachical non-parametric model was developed using families nested in judges nested in courts nested in districts. A complete lack of variation at the within-family level motivated the use of families of asylum-seekers as the smallest unit of analysis, rather than individuals. Adaboost and linear support vector machines yielded the lowest mean error across all classes of models when optimizing for the F1-measure on asylum grants.</p> <p.small>In refining these analyses we developed a technique for predicting the expected behavior of an individual judge from the collective decision-making behavior of all other judges, using the multilevel structure to weight the prediction more heavily towards judges closer to the target judge in the hierarchy. We used these weighted predictions to flag judges whose asylum granting decisions did not conform to the "collective wisdom" prediction of the system as a whole. A key finding in our analysis was that decision records which preceded the target case by over a year showed almost no interdependence either within or across judges, as the factors which contribute to reasonable decision-making behavior in asylum cases typically changed too drastically within a year to be informative for time lags greater than one year.</p> <p.small>The analyses and models used in this project were all written in Python using the scikit-learn library for machine learning and statistical modeling. Sensitive and confidential datasets provided by researchers at the National Bureau of Economic Research. Additional features merged from open data obtained from the U.N. High Commissioner for Refugees and World Bank databases.</p></div>
+                 
+                  <a class="btn btn-link" href="https://github.com/jgutman/Refugee.git" target="_newtab"
+                    ><p>Code</p></a>
+                 
+
+                 
+                 <a class="btn btn-link" href="https://jgutman.github.io/assets/ProjectReport_RefugeeAsylum_DK_JG.pdf" target="_newtab"
+                   ><p>Paper</p></a>
+                 
+
+                 
+                 <a class="btn btn-link" href="https://jgutman.github.io/assets/Refugee_Asylum_Slides.pdf" target="_newtab"
+                   ><p>Slides</p></a>
+                 
+
+                <button type="button" class="btn btn-lg" data-dismiss="modal"><i class="fa fa-times"></i>Return to Portfolio</button>
+
+            </div>
+          </div>
+        </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal-12" tabindex="-1" role="dialog" aria-labelledby="portfolio 12" aria-hidden="true">
+      <div class="modal-content">
+          <div class="modal-header">
+            <div class="close-modal" data-dismiss="modal" aria-label="Close">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div> </div>
+
+            <div class="modal-body">
+                <h2>Anomaly detection in immigration court asylum decisions</h2>
+                <hr class="star-primary">
+                <img src="img/portfolio/refugee.001.png" class="img-responsive img-centered" alt="Judge bias and anomaly detection in immigration court asylum decisions">
+                <ul class="list-inline item-details">
+                  <li>Institution:
+                    <strong>New York University</strong>
+                  </li>
+                  <li>Date:
+                    <strong>February - May 2015</strong>
+                  </li>
+                  <li>Domain:
+                    <strong>Machine learning for social good</strong>
+                  </li>
+                </ul>
+
+
+            </div>
+            <div class="modal-footer">
+              <div class="col-sm-6 col-sm-offset-2"><p.small>Using data from 40 years of immigration court records in asylum decisions, we built an anomaly detection system to predict the probability of immigration judges granting asylum to families of asylum seekers given the characteristics of the refugee, case, and judge, and recent and immediate asylum decision history. We built predictive models using Adaboost, support vector machines, and other classification models to optimize prediction and recall across all judges. We were particularly interested in measuring streak avoidance behavior in judges’ decision-making and identifying judges whose behavior systematically deviated from expected voting patterns in asylum decisions involving particular refugee ethnicities and countries of origin. </p> <p.small>Fairly extensive missing data necessitated use of multiple imputation in developing the candidate models for the analysis. A hierachical non-parametric model was developed using families nested in judges nested in courts nested in districts. A complete lack of variation at the within-family level motivated the use of families of asylum-seekers as the smallest unit of analysis, rather than individuals. Adaboost and linear support vector machines yielded the lowest mean error across all classes of models when optimizing for the F1-measure on asylum grants.</p> <p.small>In refining these analyses we developed a technique for predicting the expected behavior of an individual judge from the collective decision-making behavior of all other judges, using the multilevel structure to weight the prediction more heavily towards judges closer to the target judge in the hierarchy. We used these weighted predictions to flag judges whose asylum granting decisions did not conform to the "collective wisdom" prediction of the system as a whole. A key finding in our analysis was that decision records which preceded the target case by over a year showed almost no interdependence either within or across judges, as the factors which contribute to reasonable decision-making behavior in asylum cases typically changed too drastically within a year to be informative for time lags greater than one year.</p> <p.small>The analyses and models used in this project were all written in Python using the scikit-learn library for machine learning and statistical modeling. Sensitive and confidential datasets provided by researchers at the National Bureau of Economic Research. Additional features merged from open data obtained from the U.N. High Commissioner for Refugees and World Bank databases.</p></div>
+                 
+                  <a class="btn btn-link" href="https://github.com/jgutman/Refugee.git" target="_newtab"
+                    ><p>Code</p></a>
+                 
+
+                 
+                 <a class="btn btn-link" href="https://jgutman.github.io/assets/ProjectReport_RefugeeAsylum_DK_JG.pdf" target="_newtab"
+                   ><p>Paper</p></a>
+                 
+
+                 
+                 <a class="btn btn-link" href="https://jgutman.github.io/assets/Refugee_Asylum_Slides.pdf" target="_newtab"
+                   ><p>Slides</p></a>
+                 
+
+                <button type="button" class="btn btn-lg" data-dismiss="modal"><i class="fa fa-times"></i>Return to Portfolio</button>
+
+            </div>
+          </div>
+        </div>
+
     <div class="portfolio-modal modal fade" id="portfolioModal-1" tabindex="-1" role="dialog" aria-labelledby="portfolio 1" aria-hidden="true">
       <div class="modal-content">
           <div class="modal-header">
