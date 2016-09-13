@@ -3,7 +3,7 @@ title: Jacqueline Gutman
 email: jacqueline.gutman@nyu.edu
 url: https://jgutman.github.io
 description: "Jacqueline Gutman, Center for Data Science. Personal site. Educational data mining."
-skills: "Graduate Student - Statistical Consultant - Educational Researcher - Data Scientist"
+skills: "Data Scientist - Educational Researcher"
 meta_author: Gutman Jacqueline
 
 # Google webmaster tools
@@ -39,6 +39,7 @@ footer:
 address:
   - line: Center for Data Science
   - line: New York University
+  - line: 60 5th Avenue
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
