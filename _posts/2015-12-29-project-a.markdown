@@ -9,7 +9,7 @@ project-date: May 2016 - August 2016
 institution: University of Chicago
 category: Machine learning for social good
 
-description: WRITE DESCRIPTION HERE
+description: <p.small>WRITE DESCRIPTION HERE</p>
 
 code: https://github.com/jgutman/mvesc.git
 paper: MVESCTechnicalPlan.pdf

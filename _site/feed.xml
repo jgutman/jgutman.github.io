@@ -5,8 +5,8 @@
     <description>Jacqueline Gutman, Center for Data Science. Personal site. Educational data mining.</description>
     <link>https://jgutman.github.io/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 14 Sep 2016 15:13:34 -0400</pubDate>
-    <lastBuildDate>Wed, 14 Sep 2016 15:13:34 -0400</lastBuildDate>
+    <pubDate>Wed, 14 Sep 2016 17:50:35 -0400</pubDate>
+    <lastBuildDate>Wed, 14 Sep 2016 17:50:35 -0400</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -119,7 +119,7 @@
     
       <item>
         <title>Mining public sentiment in the Twitter response to televised debates</title>
-        <description>WRITE DESCRIPTION HERE</description>
+        <description>&lt;p.small&gt;Using supervised and unsupervised natural language processing methods, we classified annotated and unlabeled Twitter data in response to the first televised GOP debate of the 2016 U.S. presidential election in August 2015 using data scraped from the Twitter API and the Crowdflower crowdsourcing website. Applying latent Dirichlet allocation and logistic regression on the debate text as well as Twitter responses to the debate, we built a topic model and ran a sentiment analysis to gauge overall response to each candidate as well as topic-specific reactions to policy issues introduced and discussed by the candidates. We used the results to extract and label topics that appropriately encompass the scope of the debate, and examined their effectiveness in predicting the sentiment of the Twitter messages. We interpreted these relationships as a proxy measure of how Twitter users felt about policy-oriented topics, controlling for the overall Twitter reaction to each candidate. The analysis was conducted in R using the &lt;tt&gt;quanteda&lt;/tt&gt;, &lt;tt&gt;glmnet&lt;/tt&gt;, and &lt;tt&gt;dplyr&lt;/tt&gt; packages, and results were visualized using &lt;tt&gt;ggplot2&lt;/tt&gt;.&lt;/p&gt;</description>
         <pubDate>Thu, 31 Dec 2015 00:00:00 -0500</pubDate>
         <link>https://jgutman.github.io/machine%20learning%20and%20natural%20language%20processing/2015/12/31/project-c/</link>
         <guid isPermaLink="true">https://jgutman.github.io/machine%20learning%20and%20natural%20language%20processing/2015/12/31/project-c/</guid>

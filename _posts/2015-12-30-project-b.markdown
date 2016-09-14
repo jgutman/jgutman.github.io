@@ -9,7 +9,7 @@ project-date: March - May 2016
 institution: New York University
 category: Machine learning for large urban datasets
 
-description: WRITE DESCRIPTION HERE
+description: <p.small>WRITE DESCRIPTION HERE</p>
 
 code: https://github.com/nasser-zalmout/big_data_project.git
 paper: BigDatafinalproject-2.pdf

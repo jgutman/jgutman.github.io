@@ -9,7 +9,7 @@ project-date: March - May 2016
 institution: New York University
 category: Machine learning and natural language processing
 
-description: WRITE DESCRIPTION HERE
+description: <p.small>Using supervised and unsupervised natural language processing methods, we classified annotated and unlabeled Twitter data in response to the first televised GOP debate of the 2016 U.S. presidential election in August 2015 using data scraped from the Twitter API and the Crowdflower crowdsourcing website. Applying latent Dirichlet allocation and logistic regression on the debate text as well as Twitter responses to the debate, we built a topic model and ran a sentiment analysis to gauge overall response to each candidate as well as topic-specific reactions to policy issues introduced and discussed by the candidates. We used the results to extract and label topics that appropriately encompass the scope of the debate, and examined their effectiveness in predicting the sentiment of the Twitter messages. We interpreted these relationships as a proxy measure of how Twitter users felt about policy-oriented topics, controlling for the overall Twitter reaction to each candidate. The analysis was conducted in R using the <tt>quanteda</tt>, <tt>glmnet</tt>, and <tt>dplyr</tt> packages, and results were visualized using <tt>ggplot2</tt>.</p>
 
 code: https://github.com/pinesol/texas/tree/master/debate
 paper: Textasdatapaper.pdf
