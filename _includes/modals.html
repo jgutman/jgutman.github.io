@@ -45,6 +45,16 @@
                    ><p>Slides</p></a>
                  {% endif %}
 
+                 {% if post.poster %}
+                  <a class="btn btn-link" href="{{ site.url }}/assets/{{ post.paper }}" target="_newtab"
+                    ><p>Poster</p></a>
+                 {% endif %}
+
+                 {% if post.video %}
+                 <a class="btn btn-link" href="{{ post.video }}" target="_newtab"
+                   ><p>Video</p></a>
+                 {% endif %}
+
                 <button type="button" class="btn btn-lg" data-dismiss="modal"><i class="fa fa-times"></i>Return to Portfolio</button>
 
             </div>
