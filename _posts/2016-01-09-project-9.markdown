@@ -8,6 +8,8 @@ alt: Audience design preferences in sentence disambiguation
 project-date: October 2009 - August 2010
 institution: University of Rochester
 category: Cognitive science and psycholinguistics
+
 description: <p.small>I conducted an eye-tracking study to determine if speakers describing a scene are more likely to explicitly disambiguate sentence structures that caused measurable difficulty for them during comprehension. Speakers may be thought of as designing their speech for maximal comprehension by their intended audience if the degree of disambiguation in their sentence production is predicted by the level of parsing difficulty they experienced rather than a perseverance of the syntactic structures in the input.</p> <p.small>Participants were first presented with a visual scene and corresponding ambiguous scene description, and eye-tracking trajectories were used as a proxy measure of parsing difficulty. We then asked whether the level of difficulty experienced as a comprehender predicted the probability of providing explicit disambiguation or ambiguity avoidance when describing the visual scene to another individual. We also investigated whether this audience design effect was mediated by whether the conversation partner was a friend or an individual unfamiliar to the speaker.</p> <p.small>This research was supported by an endowed Bilski-Mayer Research Fellowship, of which I was named the first awardee. Scripting was primarily written in PsyScope with networking components developed using the ExBuilder experiment design toolkit. Eye-tracking data was analyzed using the <tt>saccades</tt> and <tt>eyetrackingR</tt> packages in R.</p>
+
 slides: BCS395presentation.pdf
 ---

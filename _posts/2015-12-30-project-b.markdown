@@ -8,7 +8,11 @@ alt: Analyzing taxi usage patterns in NYC to detect local hot spots and dead zon
 project-date: March - May 2016
 institution: New York University
 category: Machine learning for large urban datasets
+
 description: WRITE DESCRIPTION HERE
-code: https://github.com/pinesol/texas/tree/master/debate
-paper: Textasdatapaper.pdf
+
+code: https://github.com/nasser-zalmout/big_data_project.git
+paper: BigDatafinalproject-2.pdf
+poster: big_data_poster_Gutman_Zalmout.pdf
+video: https://youtu.be/rVHhluJNWFk
 ---

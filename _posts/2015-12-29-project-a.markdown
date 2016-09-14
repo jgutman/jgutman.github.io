@@ -8,7 +8,9 @@ alt: Identifying and influencing students at risk of not finishing high school
 project-date: May 2016 - August 2016
 institution: University of Chicago
 category: Machine learning for social good
+
 description: WRITE DESCRIPTION HERE
+
 code: https://github.com/jgutman/mvesc.git
 paper: MVESCTechnicalPlan.pdf
 slides: MVESC_Meetup.pdf

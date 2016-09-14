@@ -8,7 +8,9 @@ alt: Training a bidirectional word alignment model on Canadian parliament transc
 project-date: October - November 2015
 institution: New York University
 category: Machine learning and natural language processing
+
 description: <p.small>Many state-of-the-art machine translation systems consist of a language model and an alignment model trained on a large corpus of parallel texts with no word-to-word gloss available. In this project I implemented IBM alignment models 1 and 2 from scratch, trained on a parallel French-English corpus of Canadian parliament transcripts.</p> <p.small>Expectation-maximization was used to train each alignment model, and the intersection of one-to-many alignments in both translation directions were taken to yield the best possible inferred alignment for each sentence. Cross-validation on model hyperparameters and detailed linguistic error analysis were conducted to optimize model performance, reducing the alignment error rate by an additional 10 percentage points.</p> <p.small>Code for the alignment models and expectation-maximization algorithm was written in Java and run on a high-performance computing cluster. Performance of my model yielded the second-best alignment error rate out of all student-submitted models.</p>
+
 code: https://github.com/jgutman/stat-nlp-fall15.git
 paper: Word_Alignment_Paper.pdf
 ---
