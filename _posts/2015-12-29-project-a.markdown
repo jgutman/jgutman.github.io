@@ -15,5 +15,5 @@ code: https://github.com/jgutman/mvesc.git
 paper: MVESCTechnicalPlan.pdf
 slides: MVESC_Meetup.pdf
 poster: MVESC_Final_Poster.pdf
-video: https://www.youtube.com/watch?v=IyzQVenWdJg&feature=youtu.be&t=38m52s
+video: https://youtu.be/NuT1IuDq3Ts?list=PLwU5UOjUFg4K2CM82DNToTyd6lz0oh06i
 ---
