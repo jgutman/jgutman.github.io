@@ -29,7 +29,12 @@ footer:
 address:
   - line: Center for Data Science
   - line: New York University
-  - line: 60 5th Ave
+  - line: 60 Fifth Ave
+
+address:
+  - line: NYU Langone Medical Center
+  - line: 550 First Ave
+  - line: Medical Science Building
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
