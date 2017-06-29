@@ -27,11 +27,6 @@ footer:
   credits: Credits
 
 address:
-  - line: Center for Data Science
-  - line: New York University
-  - line: 60 Fifth Ave
-
-address:
   - line: NYU Langone Medical Center
   - line: 550 First Ave, New York, NY
   - line: Medical Science Building
