@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jacqueline Gutman</title>
-    <description>Jacqueline Gutman, Center for Data Science. Personal site. Educational data mining.</description>
+    <description>Jacqueline Gutman, Data Scientist. Personal site.</description>
     <link>https://jgutman.github.io/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 29 Jun 2017 10:19:21 -0400</pubDate>
-    <lastBuildDate>Thu, 29 Jun 2017 10:19:21 -0400</lastBuildDate>
+    <pubDate>Mon, 02 Oct 2017 14:07:31 -0400</pubDate>
+    <lastBuildDate>Mon, 02 Oct 2017 14:07:31 -0400</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>

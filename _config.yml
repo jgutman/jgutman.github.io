@@ -1,9 +1,9 @@
 # Site settings
 title: Jacqueline Gutman
-email: jacqueline.gutman@nyu.edu
+email: jacqueline.gutman@gmail.com
 url: https://jgutman.github.io
-description: "Jacqueline Gutman, Center for Data Science. Personal site. Educational data mining."
-skills: "Data Scientist & Education Researcher at NYU School of Medicine"
+description: "Jacqueline Gutman, Data Scientist. Personal site."
+skills: "Data Scientist at Plated"
 meta_author: Gutman Jacqueline
 
 # Contact form:
@@ -26,10 +26,10 @@ footer:
   social: Profiles
   credits: Credits
 
-address:
-  - line: NYU Langone Medical Center
-  - line: 550 First Ave, New York, NY
-  - line: Medical Science Building
+# address:
+#    - line:
+#    - line:
+#    - line:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
